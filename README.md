@@ -13,7 +13,7 @@ Timing Diagram:
 
 This example project shows how to implement a block ram, and interface to it using the USB serial port. This structure could be used to store data to transmit using a different protocol implemented in the FPGA (like SPMI or USB-PD). If a flip-flop based register map is used instead of the block ram, actions can be triggered by writing to specific bits.
 
-I program my tang nano using https://github.com/trabucayre/openFPGALoader
+I program my Tang Nano using https://github.com/trabucayre/openFPGALoader
 
 openFPGALoader -b tangnano uart_blockram_1k.fs
 
