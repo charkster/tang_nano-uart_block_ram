@@ -17,5 +17,4 @@ I program my Tang Nano using https://github.com/trabucayre/openFPGALoader
 
 **openFPGALoader -b tangnano uart_blockram_1k.fs**
 
-<!-- ![picture](https://tangnano.sipeed.com/assets/tang_nano_pinout_v1.0.0_w5676_h4000_large.png) --!>
 ![picture](https://github.com/charkster/tang_nano-uart_block_ram/blob/main/images/tang_nano_pinout_v1.0.0_w5676_h4000_large.png)
