@@ -1,5 +1,5 @@
 # tang_nano-uart_block_ram
-UART interface to a block ram in the Tang Nano FPGA. **No pin connections needed, just use the USB UART.**
+UART interface to a block ram in the Tang Nano FPGA. **No pin connections needed, just use the on-board USB UART.**
 Tang Nano supports up to 4k bytes of block ram (I used it all for this example). I use my own **SCARF** protocol where the first transmitted byte is the RNW bit as the MSBit, and the lower 7 bits are the slave ID (127 possible slaves in the FPGA). The next two bytes are the address (MSByte first). If a read is being done the last byte specifies the number of bytes to be read. If a write is being done the write data immediately follows the address.
 
 **Dependancies:**
